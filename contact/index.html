@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			/*box-sizing: border-box;*/
+		}
+
+		body {
+			font-family: monospace, Arial, Helvetica, sans-serif;
+			text-align: center;
+			background: linear-gradient(to right, #E3E6F0 0%, #BAC5F3 100%);
+		}
+
+		ul {
+			list-style: none;
+		}
+
+		ul li {
+			margin-top: 25px;
+			margin-right: 30px;
+			float: right;
+			width: 110px;
+			height: 25px;
+			font-size: 20px;
+			box-shadow: 0 8px 10px #3F3D3D;
+			border-radius: 30px;
+		}
+
+		ul li a {
+			text-align: center;
+			text-decoration: none;
+			color: white;
+			display: block;
+			transition: ease-out 1s;
+			text-shadow: 4px 3px 5px #000;
+		}
+
+		ul li:hover {
+			box-shadow: 0 1px 0 #3F3D3D;
+		}
+
+		ul li ul li {
+			display: none;
+		}
+
+		ul li:hover ul li {
+			display: block;
+		}
+
+		.navigator {
+			padding-bottom: 50px;
+		}
+
+		.form {
+			width: 340px;
+			height: 440px;
+			background: #e6e6e6;
+			border-radius: 8px;
+			border-top: 1px solid white;
+			border-left: 1px solid white;
+			border-right: 1px solid #716E6E;
+			border-bottom: 1px solid #716E6E;
+			box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+			margin: calc(45vh - 220px) auto;
+			padding: 20px 30px;
+			max-width: calc(100vw - 40px);
+			box-sizing: border-box;
+			font-family: 'Montserrat', sans-serif;
+			position: relative
+		}
+
+		h2 {
+			margin: 10px 0;
+			padding-bottom: 10px;
+			width: 180px;
+			color: #78788c;
+			border-bottom: 3px solid #78788c
+		}
+
+		input {
+			width: 100%;
+			padding: 10px;
+			box-sizing: border-box;
+			background: none;
+			outline: none;
+			resize: none;
+			border: 0;
+			font-family: monospace, 'Montserrat', sans-serif;
+			transition: all .3s;
+			border-bottom: 2px solid #bebed2
+		}
+
+		input:focus {
+			border-bottom: 2px solid #78788c
+		}
+
+		p:before {
+			content: attr(type);
+			display: block;
+			margin: 28px 0 0;
+			font-size: 14px;
+			color: #5a5a5a
+		}
+
+		button {
+			float: right;
+			padding: 8px 12px;
+			margin: 8px 0 0;
+			font-family: 'Montserrat', sans-serif;
+			border: 2px solid #78788c;
+			background: 0;
+			color: #5a5a6e;
+			cursor: pointer;
+			transition: all .3s
+		}
+
+		button:hover {
+			background: #78788c;
+			color: #fff
+		}
+
+		.info {
+			content: 'Hi';
+			position: relative;
+			bottom: -80px;
+			right: -20px;
+			background: #50505a;
+			color: #fff;
+			width: 320px;
+			padding: 16px 4px 16px 0;
+			border-radius: 6px;
+			font-size: 13px;
+			box-shadow: 10px 10px 40px -14px #000
+		}
+
+		span {
+			margin: 0 5px 0 15px
+		}
+	</style>
+
+
+
+	<meta charset="UTF-8">
+	<title>Picturi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.7">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="Shortcut icon" href="../imagini/Favicon.ico">
+</head>
+
+<body>
+	<div class="navigator">
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Contact</a></li>
+				<li><a href="../index.html">Home</a></li>
+			</ul>
+		</nav>
+
+	</div>
+
+	<form class="form">
+		<h2>CONTACT</h2>
+		<p type="Name:"><input placeholder="Your name" style="text-transform: uppercase;"></input>
+		</p>
+		<p type="Email:"><input placeholder="Your E-mail"></input>
+		</p>
+		<p type="Message:"><input placeholder="What would you like to tell me"></input>
+		</p>
+		<button>Send Message</button>
+		<div class="info">
+			<span class="fa fa-phone"></span>000000000
+			<span class="fa fa-envelope-o"></span>avadanei.constantin85@gmail.com
+
+		</div>
+	</form>
+
+	<script>
+
+		alert("\n   Îmi pare rău, dar momentan această pagină este în mentenanţă. \n   Mă puteţi contacta la adresa de E-mail  va apărea mai jos în pagină. \n   Mulţumesc! ");
+
+	</script>
+</body>
+
+</html>
