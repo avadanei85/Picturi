@@ -85,6 +85,25 @@
 	    background-image: url(../imagini/37.jpg);
 	    border-bottom: 1px solid #67686A;
     }
+    .info {
+    	margin-left: 30px;
+    }
+    .info1 {
+    	position: absolute;
+    	margin-top: 20px;  
+	    width: 260px;
+	    text-align: center;
+	    text-shadow: 4px 3px 5px #000;
+	    height: 27px;
+	    font-size: 19px;
+	    box-shadow: 0 8px 10px #3F3D3D;
+	    border-radius: 30px;
+	    text-shadow: 2px 2px 6px #000;
+
+	}
+    .info1:hover {
+	    box-shadow: 0 1px 0 #3F3D3D;
+    }
 
     .galerie {
 	    margin-top: 20px;
